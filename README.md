@@ -37,7 +37,7 @@ Install the latest version of Node.Js
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/sireclifford)
+- GitHub: [@sireclifford](https://github.com/sireclifford)
 
 ## 🤝 Contributing
 
