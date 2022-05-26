@@ -1,19 +1,16 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Clifford's Portfolio
 
-> Description the project.
+> This is the mobile skeleton version of the homepage
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- Node.Js
 
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
 
 
 ## Getting Started
@@ -25,16 +22,14 @@
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+You need to have a basic understanding of HTML and CSS
+
 
 ### Setup
+Make sure you have a code editor installed. I will recommend that you use visual studio code.
 
 ### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+Install the latest version of Node.Js
 
 
 
@@ -42,15 +37,7 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/sireclifford)
 
 ## 🤝 Contributing
 
@@ -64,9 +51,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Hat tip to anyone Microverse for allowing me to use their README.md file
 
 ## 📝 License
 
