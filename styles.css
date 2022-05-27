@@ -1,0 +1,86 @@
+/* Small screens */
+@media all and (max-width: 500px) {
+  body {
+    margin: 0;
+  }
+
+  .wrapper {
+    width: 100%;
+    /* change bc later */
+    background-color: bisque;
+  }
+
+  .nav-container {
+    display: flex;
+  }
+
+  .logo {
+    flex: 1;
+  }
+
+  .logo img{
+    width: 111px;
+  }
+
+  .nav-icon {
+    align-self: center;
+    margin: 16px;
+  }
+
+  .hero-content {
+    margin-left: 16px;
+    margin-right: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-name {
+    width: 220px;
+    height: 100px;
+    font-family: Playfair Display, sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0;
+    text-align: left;
+    margin: 20px 0 20px 0;
+  }
+
+  .hero-summary {
+    width: auto;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    margin: 20px 0 40px 0;
+  }
+
+  .collab {
+    background: #1a2236;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .collab a {
+    text-decoration: none;
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    border:1px solid goldenrod;
+    align-self: center;
+  }
+
+  .content-geo {
+    margin-top: 33px;
+    display: flex;
+  }
+
+  .content-geo img {
+    flex: 1;
+  }
+}
