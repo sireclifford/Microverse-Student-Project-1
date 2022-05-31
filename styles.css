@@ -304,4 +304,131 @@
     background-position: 100% 100%;
     background-size: 102px;
   }
+
+  .getting-started {
+    background: #F9F9FA;
+    margin-bottom: 64px;
+  }
+  .getting-started .logo img {
+    width: 111px;
+  }
+  .content {
+    margin-top: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .getting-started .content h1 {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 50px;
+    color: #1A2236;
+  }
+  .getting-started .content .form {
+    display: grid;
+    grid-template-rows: 52px 52px 112px auto;
+    row-gap: 30px;
+    margin-top: 32px;
+    
+    /* height: 100vh; */
+  }
+  .text-input {
+    height: 52px;
+    background: #FFFFFF;
+    border: 1px solid #DFDFE0;
+    border-radius: 4px;
+    padding-left: 16px;
+    padding-top: 4px;
+    padding-bottom: 8px;
+  }
+  .text-input.user-name label, .text-input.user-email label{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #7D7C84;
+  }
+  .text-input p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #1A2236;
+  }
+  .text-input.user-message {
+    height: 112px;
+    background: #FFFFFF;
+    border: 1px solid #DFDFE0;
+    border-radius: 4px;
+  }
+  .text-input.user-message label {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #7D7C84;
+  }
+  .form .collab {
+    background: #1a2236;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .form .collab a {
+    text-decoration: none;
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    align-self: center;
+  }
+  footer {
+    display: flex;
+    height: auto;
+    background: #1A2236;
+    padding: 25px 15px 40px 25px;
+    flex-direction: column;
+  }
+  
+  footer .get-resume {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .get-resume a {
+    color: #92DCDC;
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  .get-resume a span img {
+    position: relative;
+    top: 5px;
+    width: 17px;
+    height: 17px;
+    margin-left: 10px;
+  }
+  footer .social-icons {
+    position: relative;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    left: -40px;
+  }
+  footer .social-icons img {
+    width: 24px;
+    height: 24px;
+  }
 }
