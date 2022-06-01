@@ -1,5 +1,6 @@
 /* Small screens */
 @media all and (max-width: 500px) {
+  
   body {
     margin: 0;
   }
@@ -323,15 +324,19 @@
     margin-left: 10px;
   }
 
-  .getting-started .logo img {
-    width: 111px;
+  .getting-started {
+    background-image: url('assets/images/logo.png');
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-size: 111px;
   }
 
+
   .content {
-    margin-top: 32px;
     margin-left: 16px;
     margin-right: 16px;
   }
+
 
   .getting-started .content h1 {
     font-family: 'Playfair Display', sans-serif;
@@ -342,6 +347,7 @@
     text-align: left;
     height: 50px;
     color: #1a2236;
+    padding-top: 130px;
   }
 
   .getting-started .content form {
@@ -392,18 +398,9 @@
     font-family: 'Poppins', sans-serif;
     padding: 10px;
     border-radius: 4px;
-    width: 288px;
     border: 1px solid #dfdfe0;
     width: 335px;
     height: 90px;
-  }
-
-  .form .collab {
-    /* background: #1a2236;
-    height: 50px;
-    text-align: center;
-    display: flex;
-    justify-content: center; */
   }
 
   .get-resume a {
@@ -417,7 +414,7 @@
     text-align: left;
   }
 
-  .collab button {
+  .btn-primary-dark {
     text-decoration: none;
     color: white;
     font-family: 'Poppins', sans-serif;
@@ -430,6 +427,92 @@
     background: #1a2236;
     border: 1px solid #1a2236;
   }
+
+  .btn-primary-dark:hover {
+    text-decoration: none;
+    color: #1a2236;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border: 1px solid #1a2236;
+  }
+
+  .btn-primary-white {
+    text-decoration: none;
+    color: #1a2236;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border: 1px solid #1a2236;
+  }
+
+  .btn-primary-white:hover {
+    text-decoration: none;
+    color: #1a2236;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    background: #1a2236;
+    border: 1px solid #fff;
+  }
+
+  .btn-secondary-white {
+    text-decoration: none;
+    color: #1a2236;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border: 1px solid #1a2236;
+  }
+
+  .btn-secondary-white:hover {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    background: #1a2236;
+    border: 1px solid #1a2236;
+  }
+
+
+
+  /* .collab button {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    background: #1a2236;
+    border: 1px solid #1a2236;
+  } */
 
   footer {
     display: flex;
