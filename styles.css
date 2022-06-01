@@ -1,6 +1,5 @@
 /* Small screens */
 @media all and (max-width: 500px) {
-  
   body {
     margin: 0;
   }
@@ -306,11 +305,6 @@
     background-size: 102px;
   }
 
-  .getting-started {
-    background: #f9f9fa;
-    margin-bottom: 64px;
-  }
-
   footer .social-icons img {
     width: 24px;
     height: 24px;
@@ -325,18 +319,18 @@
   }
 
   .getting-started {
+    background: #f9f9fa;
+    margin-bottom: 64px;
     background-image: url('assets/images/logo.png');
     background-position: 0% 0%;
     background-repeat: no-repeat;
     background-size: 111px;
   }
 
-
   .content {
     margin-left: 16px;
     margin-right: 16px;
   }
-
 
   .getting-started .content h1 {
     font-family: 'Playfair Display', sans-serif;
