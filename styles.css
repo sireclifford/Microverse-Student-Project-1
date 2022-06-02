@@ -388,6 +388,13 @@
     border: none;
   }
 
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  textarea {
+    outline: none;
+  }
+
+
   textarea {
     font-family: 'Poppins', sans-serif;
     padding: 10px;
