@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <div class="wrapper" style="display: none;">
+    <div class="wrapper">
         
          <!-- Header section => Mobile -->
         <header class="nav-container">
@@ -25,7 +25,7 @@
                 </a>
             </div>
             <nav>
-                <img class="nav-icon" src="/assets/images/ic_menu.png" alt="menu-icon" />
+                <img class="nav-icon" src="/assets/images/ic_menu.png" alt="menu-icon" onclick="openMenu()"/>
             </nav>
         </header>
 
@@ -245,11 +245,11 @@
         </footer>
     </div>
     <!-- Menu Overlay -->
-    <div class="menu-overlay" style="display: block;">
+    <div class="menu-overlay" id="menu-overlay-container" style="display: none;">
         <header class="menu-nav-container">
             <div class="logo">
                 <a href="#">
-                    <img src="assets/images/mobile-menu-header.svg" alt="logo" />
+                    <img src="assets/images/mobile-menu-header.svg" alt="logo" onclick="closeMenu()"/>
                 </a>
             </div>
             <nav>
@@ -277,8 +277,18 @@
         <div class="menu-footer">
             <img src="assets/images/mobile-menu-footer.svg" alt="logo" />
         </div>
-       
-        <!-- <img src="./assets/images/image-geometry_2.svg"> -->
     </div>
+
+    <script>
+
+openMenu = () => {
+    document.getElementById("menu-overlay-container").style.display = "block";
+}
+
+closeMenu = () => {
+    document.getElementById("menu-overlay-container").style.display = "none";
+}
+
+    </script>
 </body>
 </html>
