@@ -1,10 +1,10 @@
 /* Small screens */
 @media only screen and (max-width: 600px) {
-  
-  .nav-container-desktop, .hero-content-desktop {
+  .nav-container-desktop,
+  .hero-content-desktop {
     display: none;
   }
-  
+
   body {
     margin: 0;
   }
@@ -310,6 +310,10 @@
     background-size: 102px;
   }
 
+  .menu-footer img {
+    width: 100%;
+  }
+
   footer .social-icons img {
     width: 24px;
     height: 24px;
@@ -361,8 +365,6 @@
     height: 52px;
     display: flex;
     flex-direction: column;
-
-    /* border: 1px solid black; */
     background: white;
     gap: 10px;
     border-radius: 4px;
@@ -398,7 +400,6 @@
   textarea {
     outline: none;
   }
-
 
   textarea {
     font-family: 'Poppins', sans-serif;
@@ -525,19 +526,72 @@
     left: -40px;
   }
 
-.menu-overlay {
-  /* position: relative; */
-}
+  #menu-overlay-container {
+    display: none;
+    height: 100vh;
+    background-color: #fff;
+    grid-template-rows: 100px auto 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    -webkit-transition: all 3s;
+    transition: all 3s;
+  }
+
+  .menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 2;
+    height: 100%;
+    background: url("./assets/images/dots.svg"), url("./assets/images/dots2.svg");
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: 90% 0%, 10% 90%;
+  }
+
+  header.menu-nav-container {
+    display: flex;
+    grid-row: 1;
+  }
 
   .menu-footer {
+    grid-row: 3;
     position: absolute;
     bottom: 0;
     width: 100%;
   }
 
-  .menu-footer img {
-    width: 100%;
+  ul.menu-list {
+    list-style-type: none;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    margin-left: 127px;
+    margin-right: 127px;
+    margin-top: 110px;
+    margin-bottom: 120px;
+    text-align: center;
+    padding: 0;
+  }
+
+  ul.menu-list a {
+    text-decoration: none;
+    color: black;
+  }
+
+  ul.menu-list li {
+    font-size: 16px;
+    padding: 5px;
+    line-height: 48px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .menu-nav-icon {
+    padding: 20px;
+    height: 20px;
   }
 }
-
-
