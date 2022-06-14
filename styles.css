@@ -594,4 +594,8 @@
     padding: 20px;
     height: 20px;
   }
+
+  .nun {
+    visibility: hidden;
+  }
 }
