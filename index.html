@@ -29,7 +29,7 @@
             class="nav-icon"
             src="/assets/images/ic_menu.png"
             alt="menu-icon"
-            onclick="openMenu()"
+            id="open-menu-icon"
           />
         </nav>
       </header>
@@ -284,7 +284,7 @@
             class="menu-nav-icon"
             src="/assets/images/union.svg"
             alt="menu-icon"
-            onclick="closeMenu()"
+            id="close-menu-icon"
           />
         </nav>
       </header>
@@ -292,16 +292,16 @@
         <h1 class="nun">.</h1>
         <ul class="menu-list">
           <li>
-            <a href="#">Hello</a>
+            <a>Hello</a>
           </li>
           <li>
-            <a href="javascript:void(0)" onclick="Projects()">Portfolio</a>
+            <a id="projects-link">Portfolio</a>
           </li>
           <li>
-            <a href="javascript:void(0)" onclick="About()">About</a>
+            <a id="about-link">About</a>
           </li>
           <li>
-            <a href="javascript:void(0)" onclick="GettingStarted()">Contact</a>
+            <a id="getting-started-link">Contact</a>
           </li>
         </ul>
       </section>
@@ -310,6 +310,6 @@
       </div>
     </div>
 
-   <script type="text/javascript" src="./index.js"></script>
+   <script src="./index.js"></script>
   </body>
 </html>
